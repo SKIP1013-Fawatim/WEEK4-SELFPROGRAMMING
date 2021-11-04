@@ -1,0 +1,18 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Constant {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		final double MAX_LOAD = 250; 
+	    final double MIN_HEIGHT = 69;
+	    final double PI = 3.142;
+	    
+	    System.out.println(+MAX_LOAD);
+	    System.out.println(+MIN_HEIGHT);
+	    System.out.println(+PI);
+
+	}
+
+}
