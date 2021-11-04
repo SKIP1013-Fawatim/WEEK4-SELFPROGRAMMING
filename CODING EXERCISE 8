@@ -1,0 +1,29 @@
+package selfProgramming;
+
+public class Precedence {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int result1 = 9/5;
+		int result2 = 695%20;
+		int result3 = 7+6*5;
+		int result4 = 248%100/5;
+		//same level, start from left to right
+		int result5 = 6*3-9/4;
+		//start from left to right
+		int result6 = (5-7)+4;
+		//() before +,_,*,/
+		int result7 = 6+(18%(17-12));
+		
+		System.out.println(result1);
+		System.out.println(result2);
+		System.out.println(result3);
+		System.out.println(result4);
+		System.out.println(result5);
+		System.out.println(result6);
+		System.out.println(result7);
+
+	}
+
+}
