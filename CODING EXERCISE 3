@@ -1,0 +1,23 @@
+package selfProgramming;
+
+public class Assignment_Statements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int answer=42;
+		double amount=3.99;
+		double test=80;
+		char firstinitial=' ';
+	    answer=firstinitial;
+	    //You can assign a value of type char to a variable of type int.
+        //value and data type first initial not changed
+	    System.out.println(answer);
+	    System.out.println(amount);
+	    System.out.println(test);
+	    System.out.println(firstinitial);
+	    System.out.println(answer);
+
+	}
+
+}
