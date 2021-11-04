@@ -1,0 +1,31 @@
+package selfProgramming;
+
+public class Overflow {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		
+		int oneThousand = 1000;
+		int oneMillion = 1000*oneThousand;
+		int oneBillion = 1000*oneMillion;
+		int twoBillion = 2*oneBillion;
+		int threeBillion =3*oneBillion;
+		double threeBilliontest1 =3*oneBillion;
+		double threeBilliontest2 =3*(double)oneBillion;
+		
+		
+		System.out.println(twoBillion);
+		//okay
+		System.out.println(threeBillion);
+		//accept value less than 3billion (overflowed)
+		System.out.println(threeBilliontest1);
+		/*assignment from right to left, threeBilliontest1 accept overflowed value integer
+        not overflowed when 3.0 times oneBillion*/
+		System.out.println(threeBilliontest2);
+		//okay
+		
+
+	}
+
+}
