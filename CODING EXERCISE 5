@@ -1,0 +1,36 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Expression {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int muladd = 1+4*3;
+		int addmul = (1+4)*3;
+		//solve from left to right, do operand with high precedence level first
+		System.out.println(muladd);
+		System.out.println(addmul);
+		
+		int div = 14/4;
+		System.out.println(div);
+		
+		double test = 14.0/4;
+		System.out.println(test);
+		
+		int change = 5%4;
+		System.out.println(change);
+		
+		int m=4;
+		int result = 3+2*++m;
+		//m++ is unary (high precedence level)
+		
+		System.out.println(result);
+		System.out.println(m);
+		//value m brought from operation 
+		
+		
+		
+	}
+
+}
